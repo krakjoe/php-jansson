@@ -27,7 +27,7 @@ if test "$PHP_JANSSON" != "no"; then
   PHP_ADD_INCLUDE($JANSSON_DIR/include)
 
   LIBNAME=jansson
-  LIBSYMBOL=json_array_foreach
+  LIBSYMBOL=json_object
 
   PHP_CHECK_LIBRARY($LIBNAME,$LIBSYMBOL,
   [
